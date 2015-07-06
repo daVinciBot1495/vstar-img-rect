@@ -1,7 +1,14 @@
 package com.davincibot1495.vstar;
 
+import com.davincibot1495.vstar.values.LineSegment2D;
+import com.davincibot1495.vstar.values.Point2D;
+
 public class App {
 	public static void main(String[] args) {
-		System.out.println("I've made a huge mistake.");
+		final Point2D point2D = new Point2D(0.123, 5.678);
+		System.out.println(point2D);
+
+		final LineSegment2D lineSegment2D = new LineSegment2D(new Point2D(0, 0), new Point2D(1.0, 1.0));
+		System.out.println(lineSegment2D);
 	}
 }
