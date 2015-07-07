@@ -1,7 +1,7 @@
 package com.davincibot1495.vstar;
 
-import com.davincibot1495.vstar.values.LineSegment2D;
-import com.davincibot1495.vstar.values.Point2D;
+import com.davincibot1495.vstar.domain.values.LineSegment2D;
+import com.davincibot1495.vstar.domain.values.Point2D;
 
 public class App {
 	public static void main(String[] args) {

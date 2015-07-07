@@ -1,4 +1,4 @@
-package com.davincibot1495.vstar.values;
+package com.davincibot1495.vstar.domain.values;
 
 /**
  * A value class the represents a point in two dimensional space.
