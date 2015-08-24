@@ -1,16 +1,13 @@
-package com.davincibot1495.vstar.domain.services;
+package com.davincibot1495.vstar.img_rect.domain.values;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.RealMatrix;
-
-import com.davincibot1495.vstar.domain.values.Point2D;
-import com.davincibot1495.vstar.domain.values.Point2DTransform;
 
 /**
  * A value class that represents a projective transformation for points in a two
  * dimensional space.
  */
-final class ProjectivePoint2DTransform implements Point2DTransform {
+public final class ProjectivePoint2DTransform implements Point2DTransform {
 	private final RealMatrix transform;
 
 	public ProjectivePoint2DTransform(final RealMatrix transform) {

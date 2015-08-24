@@ -1,8 +1,11 @@
-package com.davincibot1495.vstar.domain.values;
+package com.davincibot1495.vstar.img_rect.domain.values;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.davincibot1495.vstar.img_rect.domain.values.LineSegment2D;
+import com.davincibot1495.vstar.img_rect.domain.values.Point2D;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.not;

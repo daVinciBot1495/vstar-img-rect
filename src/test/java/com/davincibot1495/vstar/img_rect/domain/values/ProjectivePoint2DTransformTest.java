@@ -1,11 +1,12 @@
-package com.davincibot1495.vstar.domain.services;
+package com.davincibot1495.vstar.img_rect.domain.values;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.davincibot1495.vstar.domain.values.Point2D;
-import com.davincibot1495.vstar.domain.values.Point2DTransform;
+import com.davincibot1495.vstar.img_rect.domain.values.Point2D;
+import com.davincibot1495.vstar.img_rect.domain.values.Point2DTransform;
+import com.davincibot1495.vstar.img_rect.domain.values.ProjectivePoint2DTransform;
 
 import static org.hamcrest.Matchers.equalTo;
 

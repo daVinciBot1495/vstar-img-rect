@@ -1,11 +1,12 @@
-package com.davincibot1495.vstar.domain.services;
+package com.davincibot1495.vstar.img_rect.domain.services;
 
 import org.apache.commons.math3.geometry.euclidean.threed.Vector3D;
 
-import com.davincibot1495.vstar.domain.values.LineSegment2D;
-import com.davincibot1495.vstar.domain.values.LineSegment2DPair;
-import com.davincibot1495.vstar.domain.values.Point2DTransform;
-import com.davincibot1495.vstar.infra.services.Projective2DService;
+import com.davincibot1495.vstar.img_rect.domain.values.LineSegment2D;
+import com.davincibot1495.vstar.img_rect.domain.values.LineSegment2DPair;
+import com.davincibot1495.vstar.img_rect.domain.values.Point2DTransform;
+import com.davincibot1495.vstar.img_rect.domain.values.ProjectivePoint2DTransform;
+import com.davincibot1495.vstar.img_rect.infra.services.Projective2DService;
 
 /**
  * A service class that computes transformations for affine and metric

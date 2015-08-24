@@ -1,4 +1,4 @@
-package com.davincibot1495.vstar.domain.values;
+package com.davincibot1495.vstar.img_rect.domain.values;
 
 /**
  * A value class that represents a pair of line segments in two dimensional

@@ -1,4 +1,4 @@
-package com.davincibot1495.vstar.domain.services;
+package com.davincibot1495.vstar.img_rect.domain.services;
 
 import org.apache.commons.math3.geometry.euclidean.threed.Vector3D;
 import org.junit.Before;
@@ -8,10 +8,11 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import com.davincibot1495.vstar.domain.values.LineSegment2D;
-import com.davincibot1495.vstar.domain.values.LineSegment2DPair;
-import com.davincibot1495.vstar.domain.values.Point2D;
-import com.davincibot1495.vstar.infra.services.Projective2DService;
+import com.davincibot1495.vstar.img_rect.domain.services.ImageRectificationTransformationService;
+import com.davincibot1495.vstar.img_rect.domain.values.LineSegment2D;
+import com.davincibot1495.vstar.img_rect.domain.values.LineSegment2DPair;
+import com.davincibot1495.vstar.img_rect.domain.values.Point2D;
+import com.davincibot1495.vstar.img_rect.infra.services.Projective2DService;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ImageRectificationTransformationServiceTest {
